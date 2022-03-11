@@ -1,6 +1,5 @@
 import Stories from "./Stories";
 import Posts from "./Posts";
-import Sidebar from "./Sidebar";
 
 const stories = [
     { user: '9gag' },
@@ -36,7 +35,7 @@ const posts = [
 
 export default function Conteudo() {
     return (
-        <div>
+        <>
             <div class="stories">
                 {stories.map((s) => (
                     <Stories user={s.user} />
@@ -47,9 +46,6 @@ export default function Conteudo() {
                     <Posts user={p.user} img={p.img} likes={p.likes} text={p.text} />
                 ))}
             </div>
-            <div class="usuarios">
-                <Sidebar />
-            </div>
-        </div>
+        </>
     );
 }

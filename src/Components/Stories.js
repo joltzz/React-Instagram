@@ -1,6 +1,6 @@
 export default function Stories(props) {
   return (
-    <div class="stories">
+    <div>
       <div class="story">
         <div class="imagem">
           <img src={`assets/img/${props.user}.svg`} alt={props.user} />

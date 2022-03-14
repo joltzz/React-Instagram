@@ -62,7 +62,7 @@ export default function Sidebar() {
                 Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
             </div>
             <div class="copyright">
-                © 2021 INSTAGRAM DO FACEBOOK & GUILHERME
+                © 2022 INSTAGRAM DO FACEBOOK & GUILHERME
             </div>
         </div>
     )
